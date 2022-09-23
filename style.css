@@ -14,7 +14,6 @@ body
 {
     position: relative;
     /* top: 15%; */
-    font-size: 100%;
     font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
 }
 #app-cover
@@ -35,12 +34,12 @@ body
     right: -30px;
     bottom: -30px;
     left: -30px;
-    background-image: url("./Background/bg1.jpg");
+    background-image: url("./Background/bg3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     filter: blur(4px);
-    -webkit-filter: blur(4px);
+    -webkit-filter: blur(1px);
     z-index: 1;
 }
 
